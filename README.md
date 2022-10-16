@@ -1,2 +1,2 @@
-# estudos-javascript-inicial
+# Estudos-javascript-inicial
 Estudos iniciais de JavaScript 
