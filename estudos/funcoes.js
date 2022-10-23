@@ -1,4 +1,4 @@
-/*function sayHello (){
+function sayHello (){
     console.log('Hello');
 }
 sayHello();
@@ -18,7 +18,7 @@ output(resultado);
 var resultado = sum(5, 9);
 output(resultado);
 var resultado = sum(5, 90);
-output(resultado);*/
+output(resultado);
 
 function somaDiminuir(result, result2) {
 

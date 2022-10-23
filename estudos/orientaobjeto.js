@@ -10,12 +10,7 @@ obj = {
 };
 console.log(obj);
 console.log('\n\n');
-
-
-
-
 var book = new book('A', 'B', 'C');
-
 function book(title, pages, isbn) {
     this.title = title;
     this.pages = pages;

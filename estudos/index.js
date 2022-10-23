@@ -107,8 +107,6 @@ console.log('packt' === 'packt');//true
 var per1 = { name: 'John' };
 var per2 = { name: 'John' };
 console.log(per1 === per2); //false objetos diferentes
-
-
 const [first, second, re] = [1, 2, 3];
 console.log(first, second, re);
 

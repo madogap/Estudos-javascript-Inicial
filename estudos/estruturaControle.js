@@ -1,10 +1,11 @@
+console.log('-----------IF / ELSE-----------------\n');
 var num = 0;
 if (num === 1) {
     console.log('num is equal to 1');
 } else {
-    console.log('num is not equal to 1, the value of num is ' + num);
+    console.log('Num is not equal to 1, the value of num is ' + num);
 }
-console.log('-----------------------------');
+console.log('--------IF / ELSE IF---------------------\n');
 var month = 2;
 if (month === 1) { //(num===1) ? num-- : num++;
     console.log('January');
@@ -15,7 +16,7 @@ if (month === 1) { //(num===1) ? num-- : num++;
 } else {
     console.log('Month is not January, February or March');
 }
-console.log('----------------------------------');
+console.log('--------------SWITCH CASE--------------------\n');
 var month = 3;
 switch (month) {
     case 1:
@@ -32,11 +33,14 @@ switch (month) {
         console.log('Month is not January, February or March');
         break;
 }
-console.log('----------------------------');
+console.log('------------FOR (VAR I = 0; I<10; I++) ----------------\n');
+
+//Loops
 for (var i = 0; i < 10; i++) {
     console.log(i);
 }
-console.log('---------------------------');
+console.log('---------------------------\n');
+/*
 var i = 0;
 while (i < 10) {
     console.log(i);
@@ -47,4 +51,4 @@ var i = 0;
 do {
     console.log(i);
     i++;
-} while (i < 10);
+} while (i < 10);*/

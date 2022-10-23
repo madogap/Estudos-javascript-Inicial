@@ -1,7 +1,7 @@
 /* Tratamento de erros 
 Throw e return
 Apresentação do Try/Catch
-Finaly
+Finaly*/
 
 function verificaPalindromo(string) {
     if (!string) return "String Inválida";
@@ -24,7 +24,7 @@ function tryCatchExemplo(string) {
         console.log(e)
     }
 }
-tryCatchExemplo(''); */
+tryCatchExemplo(''); 
 
 
 function verificaPalindromo(string) {
