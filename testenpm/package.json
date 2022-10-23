@@ -1,0 +1,17 @@
+{ 
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "testenpm",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    
+  },
+  "author": "Marcus Augusto de Oliveira",
+  "license": "MIT"
+}
+
+
