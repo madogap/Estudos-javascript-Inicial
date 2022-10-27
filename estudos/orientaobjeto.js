@@ -9,47 +9,62 @@ obj = {
     address: 'Middle Earth'
 };
 console.log(obj);
-console.log('\n\n');
+console.log('-------------------------------------------------------------------');
+
 var book = new book('A', 'B', 'C');
+
 function book(title, pages, isbn) {
     this.title = title;
     this.pages = pages;
     this.isbn = isbn;
     this.printTitle = function () {
-        console.log(this.title);
+        console.log(this.title);//A
     }
     this.printPages = function () {
-        console.log(this.pages);
+        console.log(this.pages);//B
     }
     this.printIsbn = function () {
-        console.log(this.isbn);
+        console.log(this.isbn);//C
     };
 }
-book.printTitle();
+console.log(book);
 book.printPages();
-book.printIsbn();
+book.printTitle();
+book.printIsbn(); 
 
-console.log(this.title);
-console.log(this.page);
-console.log(this.isbn);
+console.log(this.title);//undefined
+console.log('--------------------------------');
+console.log(this.page);//undefined
+console.log('--------------------------------');
+console.log(this.isbn);//undefined
+console.log('--------------------------------');
 
 console.log('\n');
-console.log(book.title);
-console.log(book.pages);
-console.log(book.isbn);
+console.log(book.title);//A
+console.log('--------------------------------');
+console.log(book.pages);//B
+console.log('--------------------------------');
+console.log(book.isbn);//C
+
+
+
 
 book.title = 'New Title';
 book.pages = 'New Pages';
 book.isbn = 'New Isbn';
-console.log(book.title);
+console.log('--------------------------------');
+console.log(book.title);//New Title
 
-console.log(book.pages);
+console.log('--------------------------------');
+console.log(book.pages);//New Pages
+console.log('--------------------------------');
 
-console.log(book.isbn);
+console.log(book.isbn);//New Isbn
+console.log('--------------------------------');
 
-console.log(this.title);
-console.log(this.page);
-console.log(this.isbn);
+console.log(this.title);//undefined
+console.log(this.page);//undefined
+console.log(this.isbn);//undefined
 
 
 

@@ -1,9 +1,9 @@
-console.log('-----------IF / ELSE-----------------\n');
+console.log('-----------IF / ELSE-----------------');
 var num = 0;
 if (num === 1) {
     console.log('num is equal to 1');
 } else {
-    console.log('Num is not equal to 1, the value of num is ' + num);
+    console.log('Num is not equal to 1, the value of num is \n' + num);
 }
 console.log('--------IF / ELSE IF---------------------\n');
 var month = 2;
