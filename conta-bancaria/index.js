@@ -50,8 +50,8 @@ class Cat extends Animal {
 
 let b = new Cat()
 console.log(b.type)
-*/
-//ATIVIDADE CONTA BACÁRIA
+
+//ATIVIDADE CONTA BACÁRIA*/
 
 class ContaBancaria {
     constructor(agencia, numero, tipo) {
